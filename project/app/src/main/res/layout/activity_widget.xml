@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/hello_text_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="안녕하세요"
+       />
+
+
+    <CheckBox
+        android:id="@+id/hello_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="안녕하세요"
+        />
+
+    <com.yunjaena.project.CustomeEditText
+        android:hint="커스텀 했음"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
